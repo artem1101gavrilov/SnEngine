@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6NoAyLpoV5x1s7TiqbtjJRrzdX989Zvcj0DlRG80TEcItcmq4oTlE8/NCtMAMiEg2Y0d5ORhXoYfmURkZHVkBg==",
+  "success": true,
+  "projectFilePath": "/home/siphome/Документы/SNEngine/SNEngine/SNEngine.csproj",
+  "expectedPackageFiles": [
+    "/home/siphome/.nuget/packages/csfml/2.5.0/csfml.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/sfml.audio/2.5.0/sfml.audio.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/sfml.graphics/2.5.0/sfml.graphics.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/sfml.net/2.5.0/sfml.net.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/sfml.system/2.5.0/sfml.system.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/sfml.window/2.5.0/sfml.window.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

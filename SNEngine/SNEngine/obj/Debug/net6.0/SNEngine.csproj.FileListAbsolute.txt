@@ -1,0 +1,12 @@
+/home/siphome/Документы/SNEngine/SNEngine/bin/Debug/net6.0/SNEngine.deps.json
+/home/siphome/Документы/SNEngine/SNEngine/bin/Debug/net6.0/SNEngine.dll
+/home/siphome/Документы/SNEngine/SNEngine/bin/Debug/net6.0/ref/SNEngine.dll
+/home/siphome/Документы/SNEngine/SNEngine/bin/Debug/net6.0/SNEngine.pdb
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.csproj.AssemblyReference.cache
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.GeneratedMSBuildEditorConfig.editorconfig
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.AssemblyInfoInputs.cache
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.AssemblyInfo.cs
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.csproj.CoreCompileInputs.cache
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.dll
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/ref/SNEngine.dll
+/home/siphome/Документы/SNEngine/SNEngine/obj/Debug/net6.0/SNEngine.pdb
