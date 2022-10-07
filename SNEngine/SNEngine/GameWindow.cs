@@ -8,6 +8,9 @@ public class GameWindow
     public event Action OnClosed;
 
      private RenderWindow _window;
+
+     public string Title {get; internal set;}
+
       public GameWindow (string title = "New SNEngine Novel")
     {
         VideoMode video = new VideoMode(600, 600);
@@ -15,6 +18,8 @@ public class GameWindow
         Color color = Color.Green;
 
         _window = new RenderWindow(video, title);
+
+        Title = title;
 
         StartWhile(color);
     }
@@ -37,7 +42,6 @@ public class GameWindow
     {
         OnClosed?.Invoke();
 
-
         _window.Close();
 
     }
@@ -45,6 +49,8 @@ public class GameWindow
     public void SetTitle(string placeholder) 
     {
        _window.SetTitle(placeholder);
+
+        Title = placeholder;
 
        Console.WriteLine(string.Format("New title of window {0}", _window.ToString()));
     }
