@@ -48,6 +48,10 @@ public class GameWindow
     {
         OnClosed?.Invoke();
 
+        Debug.Log($"event of OnClosed called for {OnClosed?.GetInvocationList().Length} subcribes");
+
+        Debug.Log("app has closed. SNEEngine threads as stopped.");
+
         _window.Close();
 
     }
@@ -58,6 +62,6 @@ public class GameWindow
 
         Title = placeholder;
 
-       Console.WriteLine(string.Format("New title of window {0}", Title));
+       Debug.Log(string.Format("New title of window {0}", Title));
     }
 }

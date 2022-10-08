@@ -9,7 +9,7 @@ namespace SNEngine.Demo
 
         private static void Main(string[] args)
         {
-
+            GameResources.Initialize();
 
             GameWindow window = new GameWindow("SNEngine Demo");
 
