@@ -11,6 +11,8 @@ namespace SNEngine.Demo
         {
             GameResources.Initialize();
 
+            GameResources.LoadContent();
+
             GameWindow window = new GameWindow("SNEngine Demo");
 
             window.BeginRender();

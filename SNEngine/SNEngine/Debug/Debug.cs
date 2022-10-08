@@ -32,6 +32,23 @@ namespace SNEngine
              
               ResetColor();
         }
+        public static void LogAction (string message) 
+        {
+             SetColorConsole(ConsoleColor.Green);
+
+             Console.WriteLine($"[SNEngine Action]: {message}");
+
+              ResetColor();
+        }
+
+        public static void LogSpecial (string message, ConsoleColor color) 
+        {
+             SetColorConsole(color);
+
+             Console.WriteLine($"[SNEngine Special Event]: {message}");
+
+              ResetColor();
+        }
 
         
     }
