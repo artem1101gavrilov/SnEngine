@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/siphome/Документы/SNEngine/SNEngineDemo/SNEngineDemo.csproj": {}
+    "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj": {}
   },
   "projects": {
-    "/home/siphome/Документы/SNEngine/SNEngineDemo/SNEngineDemo.csproj": {
+    "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/siphome/Документы/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
+        "projectUniqueName": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
         "projectName": "SNEngineDemo",
-        "projectPath": "/home/siphome/Документы/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
+        "projectPath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
         "packagesPath": "/home/siphome/.nuget/packages/",
-        "outputPath": "/home/siphome/Документы/SNEngine/SNEngineDemo/obj/",
+        "outputPath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/siphome/.nuget/NuGet/NuGet.Config"

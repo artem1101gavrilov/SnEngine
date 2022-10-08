@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oW7EDMDueet0mM7n082pWL77rQ3aEQdbPUcygWkN0xtVm50ISKXqZn0Jl00wOuOjGxWPU4Wn/OVkC+A4D8BqlQ==",
+  "dgSpecHash": "cSBJqjyt2QOEeKETYMGyABbnQTv7Oztjdwi3IYkmpFaqKnLBOmcyb4ewcSPG+PBKW2t29diSZ7aMGaS0Dm6S4A==",
   "success": true,
-  "projectFilePath": "/home/siphome/Документы/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
+  "projectFilePath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
   "expectedPackageFiles": [
     "/home/siphome/.nuget/packages/csfml/2.5.0/csfml.2.5.0.nupkg.sha512",
     "/home/siphome/.nuget/packages/sfml.audio/2.5.0/sfml.audio.2.5.0.nupkg.sha512",

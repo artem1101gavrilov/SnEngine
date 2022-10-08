@@ -449,11 +449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/siphome/Документы/SNEngine/SNEngine/SNEngine.csproj",
+      "projectUniqueName": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngine/SNEngine.csproj",
       "projectName": "SNEngine",
-      "projectPath": "/home/siphome/Документы/SNEngine/SNEngine/SNEngine.csproj",
+      "projectPath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngine/SNEngine.csproj",
       "packagesPath": "/home/siphome/.nuget/packages/",
-      "outputPath": "/home/siphome/Документы/SNEngine/SNEngine/obj/",
+      "outputPath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngine/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/siphome/.nuget/NuGet/NuGet.Config"

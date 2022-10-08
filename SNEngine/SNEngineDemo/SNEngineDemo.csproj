@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="/home/siphome/Документы/SNEngine/SNEngine/bin/Debug/net6.0/SNEngine.dll" />
+    <Reference Include="/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngine/bin/Debug/net6.0/SNEngine.dll"/>
     <Content Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>

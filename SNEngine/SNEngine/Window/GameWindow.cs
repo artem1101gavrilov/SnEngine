@@ -13,7 +13,7 @@ public class GameWindow
 
       public GameWindow (string title = "New SNEngine Novel")
     {
-        VideoMode video = new VideoMode(600, 600);
+        VideoMode video = new VideoMode(1200, 600);
 
         Color color = Color.Green;
 
@@ -21,20 +21,26 @@ public class GameWindow
 
         Title = title;
 
-        StartWhile(color);
-    }
-
-    private void StartWhile(Color color)
-    {
         _window.Closed += Close;
 
+    }
+
+    public void BeginRender()
+    {
+
+        Render();
+    }
+
+    private void Render()
+    {
         while (_window.IsOpen)
         {
             _window.DispatchEvents();
 
-            _window.Clear(color);
+            _window.Clear(Color.Black);
 
             _window.Display();
+
         }
     }
 
@@ -52,6 +58,6 @@ public class GameWindow
 
         Title = placeholder;
 
-       Console.WriteLine(string.Format("New title of window {0}", _window.ToString()));
+       Console.WriteLine(string.Format("New title of window {0}", Title));
     }
 }
