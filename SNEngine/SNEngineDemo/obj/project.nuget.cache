@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cSBJqjyt2QOEeKETYMGyABbnQTv7Oztjdwi3IYkmpFaqKnLBOmcyb4ewcSPG+PBKW2t29diSZ7aMGaS0Dm6S4A==",
+  "dgSpecHash": "KVRe8H9O2sedMmONVpBRCjkDgaDYAzdCvJKGz+XFIlzSBnnm1J5K+KdvgpTTe86WdiRhNx9NiXuQCYO9rNisZw==",
   "success": true,
   "projectFilePath": "/home/siphome/Документы/GitHub/SnEngine/SNEngine/SNEngineDemo/SNEngineDemo.csproj",
   "expectedPackageFiles": [
     "/home/siphome/.nuget/packages/csfml/2.5.0/csfml.2.5.0.nupkg.sha512",
+    "/home/siphome/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/siphome/.nuget/packages/sfml.audio/2.5.0/sfml.audio.2.5.0.nupkg.sha512",
     "/home/siphome/.nuget/packages/sfml.graphics/2.5.0/sfml.graphics.2.5.0.nupkg.sha512",
     "/home/siphome/.nuget/packages/sfml.net/2.5.0/sfml.net.2.5.0.nupkg.sha512",
