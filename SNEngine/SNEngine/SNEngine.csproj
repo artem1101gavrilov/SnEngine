@@ -15,5 +15,9 @@
     <Content Include="Debug\Debug.cs" />
     <Content Include="GameResources\ResourceInfo.cs" />
     <Content Include="GameResources\ResourceType.cs" />
+    <Content Include="Interfaces\ISNEnginePointStart.cs" />
+    <Content Include="Exceptions\SNEngineNullReferenceException.cs" />
+    <Content Include="Visual\GUI\Text.cs" />
+    <Content Include="Interfaces\IDrawableObject.cs" />
   </ItemGroup>
 </Project>

@@ -15,13 +15,17 @@ namespace SNEngine
         {
             "images",
             "fonts",
-            "UI",
+            "gui",
             "audio",
         };
 
-        private static Dictionary<string, ResourceInfo> _paths;
+        public static event Action OnLoadContentFinish;
 
-        private static Dictionary<string, Texture> _texturesCache;
+        public static event Action OnInitialized;
+
+        private static Dictionary<string, ResourceInfo> _paths = new Dictionary<string, ResourceInfo>();
+
+        private static Dictionary<string, Texture> _texturesCache = new Dictionary<string, Texture>();
 
         public static string RootDirectory => _rootDirectory;
 
@@ -126,14 +130,14 @@ namespace SNEngine
 
                 AddNewPathResources(resource);
             }
-
+                OnInitialized?.Invoke();
 
         }
 
         public static void LoadContent () 
         {
 
-
+            Debug.LogAction("load content...");
 
             if (_isLoadContent)
             {
@@ -141,13 +145,19 @@ namespace SNEngine
 
                 return;
             }
-             _texturesCache = new Dictionary<string, Texture>();
+
 
              var folberTextures = GetFulPathToFolber(_paths.Single(x => x.Value.key == "images").Value.path);
 
               
 
-             _isLoadContent = true;
+            
+
+             OnLoadContentFinish?.Invoke();
+
+              _isLoadContent = true;
+
+              Debug.Log("load content finished");
         }
 
         public static void SetRootDirectory (string path) 
@@ -182,12 +192,12 @@ namespace SNEngine
 
             _paths.Add(resource.key, resource);
 
-            Debug.LogAction($"added new path of resources: Key: {resource.key} Path: {resource.path}");
+            Debug.LogAction($"added new path of resources: Key: {resource.key} Path: {resource.path}. Current count paths {_paths.Count}");
 
             
         }
 
-        private static string GetFulPathToFolber (string path) 
+        public static string GetFulPathToFolber (string path) 
         {
               return $"{_rootDirectory}{path}";
         }
