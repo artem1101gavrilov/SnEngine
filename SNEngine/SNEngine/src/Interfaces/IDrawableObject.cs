@@ -1,10 +1,8 @@
 using SFML.Graphics;
-using SFML.System;
 
-namespace SNEngine.Visual
+namespace SNEngine.Visual;
+
+public interface IDrawableObject
 {
-    public interface IDrawableObject
-    {
-        public void Draw (RenderWindow renderWindow);
-    }
+    public void Draw (RenderWindow renderWindow);
 }

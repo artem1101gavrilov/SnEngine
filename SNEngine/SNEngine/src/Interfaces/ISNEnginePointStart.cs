@@ -1,14 +1,13 @@
-namespace SNEngine
+namespace SNEngine;
+
+public interface ISNEnginePointStart
 {
-    public interface ISNEnginePointStart
+    static void LoadContent () 
     {
-        static void LoadContent () 
-        {
 
-        }
-        static void Render (object? data) 
-        {
+    }
+    static void Render (object? data) 
+    {
 
-        }
     }
 }

@@ -1,9 +1,8 @@
-namespace SNEngine
+namespace SNEngine;
+
+public enum ResourceType
 {
-    public enum ResourceType
-    {
-        Image,
-        Audio,
-        Font,
-    }
+    Image,
+    Audio,
+    Font,
 }
